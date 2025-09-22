@@ -24,3 +24,5 @@ reserva.CadastrarHospedes(hospedes);
 Console.WriteLine($"{p1.NomeCompleto} e {p2.NomeCompleto} fizeram uma reserva.");
 Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
 Console.WriteLine($"Valor diária: {reserva.CalcularValorDiaria()}");
+Console.WriteLine($"Dias reservados: {reserva.DiasReservados}");
+Console.WriteLine($"Suite: {reserva.Suite.TipoSuite}");
